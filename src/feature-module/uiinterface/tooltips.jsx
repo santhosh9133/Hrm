@@ -112,8 +112,8 @@ const Tooltips = () => {
                     data-bs-toggle="tooltip"
                     data-bs-custom-class="tooltip-primary"
                     data-bs-placement="top">
-                      
-                                            <OverlayTrigger placement="top" overlay={renderTooltip} offset={[0, 15]}>
+
+                                            <OverlayTrigger placement="top" menu={<>{renderTooltip}</>} offset={[0, 15]}>
                                                 <span className="d-inline-block">
                                                     Primary Tooltip
                                                 </span>
@@ -126,8 +126,8 @@ const Tooltips = () => {
                       data-bs-custom-class="tooltip-secondary"
                       data-bs-placement="top"
                       data-bs-original-title="Secondary Tooltip">
-                      
-                                            <OverlayTrigger placement="top" overlay={renderTooltipSecondary} offset={[0, 15]}>
+
+                                            <OverlayTrigger placement="top" menu={<>{renderTooltipSecondary}</>} offset={[0, 15]}>
                                                 <span className="d-inline-block">
                                                     Secondary Tooltip
                                                 </span>
@@ -140,8 +140,8 @@ const Tooltips = () => {
                       data-bs-custom-class="tooltip-warning"
                       data-bs-placement="top"
                       data-bs-original-title="Warning Tooltip">
-                      
-                                            <OverlayTrigger placement="top" overlay={renderTooltipWarning} offset={[0, 15]}>
+
+                                            <OverlayTrigger placement="top" menu={<>{renderTooltipWarning}</>} offset={[0, 15]}>
                                                 <span className="d-inline-block">
                                                     Warning Tooltip
                                                 </span>
@@ -156,7 +156,7 @@ const Tooltips = () => {
                       data-bs-original-title="Info Tooltip">
                       
 
-                                            <OverlayTrigger placement="top" overlay={renderTooltipInfo} offset={[0, 15]}>
+                                            <OverlayTrigger placement="top" menu={<>{renderTooltipInfo}</>} offset={[0, 15]}>
                                                 <span className="d-inline-block">
                                                     Info Tooltip
                                                 </span>
@@ -169,8 +169,8 @@ const Tooltips = () => {
                       data-bs-custom-class="tooltip-success"
                       data-bs-placement="top"
                       data-bs-original-title="Success Tooltip">
-                      
-                                            <OverlayTrigger placement="top" overlay={renderTooltipSuccess} offset={[0, 15]}>
+
+                                            <OverlayTrigger placement="top" menu={<>{renderTooltipSuccess}</>} offset={[0, 15]}>
                                                 <span className="d-inline-block">
                                                     Success Tooltip
                                                 </span>
@@ -183,8 +183,8 @@ const Tooltips = () => {
                       data-bs-custom-class="tooltip-danger"
                       data-bs-placement="top"
                       data-bs-original-title="Danger Tooltip">
-                      
-                                            <OverlayTrigger placement="top" overlay={renderTooltipDanger} offset={[0, 15]}>
+
+                                            <OverlayTrigger placement="top" menu={<>{renderTooltipDanger}</>} offset={[0, 15]}>
                                                 <span className="d-inline-block">
                                                     Danger Tooltip
                                                 </span>
@@ -197,8 +197,8 @@ const Tooltips = () => {
                       data-bs-custom-class="tooltip-light"
                       data-bs-placement="top"
                       data-bs-original-title="Light Tooltip">
-                      
-                                            <OverlayTrigger placement="top" overlay={renderTooltipLight} offset={[0, 15]}>
+
+                                            <OverlayTrigger placement="top" menu={<>{renderTooltipLight}</>} offset={[0, 15]}>
                                                 <span className="d-inline-block">
                                                     Light Tooltip
                                                 </span>
@@ -211,8 +211,8 @@ const Tooltips = () => {
                       data-bs-custom-class="tooltip-dark"
                       data-bs-placement="top"
                       data-bs-original-title="Dark Tooltip">
-                      
-                                            <OverlayTrigger placement="top" overlay={renderTooltipDark} offset={[0, 15]}>
+
+                                            <OverlayTrigger placement="top" menu={<>{renderTooltipDark}</>} offset={[0, 15]}>
                                                 <span className="d-inline-block">
                                                     Dark Tooltip
                                                 </span>
@@ -235,7 +235,7 @@ const Tooltips = () => {
                                     <div className="popover-list">
                                         <OverlayTrigger
                       placement="top"
-                      overlay={renderTooltipHover}
+                      menu={<>{renderTooltipHover}</>}
                       delay={{ show: 250, hide: 400 }}>
                       
                                             <button
@@ -260,7 +260,7 @@ const Tooltips = () => {
                                     <div className="tooltip-list">
                                         <OverlayTrigger
                       placement="top"
-                      overlay={<Tooltip id="tooltip-top">Tooltip on top</Tooltip>}>
+                      menu={<Tooltip id="tooltip-top">Tooltip on top</Tooltip>}>
                       
                                             <button
                         type="button"
@@ -271,7 +271,7 @@ const Tooltips = () => {
                                         </OverlayTrigger>
                                         <OverlayTrigger
                       placement="right"
-                      overlay={<Tooltip id="tooltip-right">Tooltip on right</Tooltip>}>
+                      menu={<Tooltip id="tooltip-right">Tooltip on right</Tooltip>}>
                       
                                             <button
                         type="button"
@@ -282,7 +282,7 @@ const Tooltips = () => {
                                         </OverlayTrigger>
                                         <OverlayTrigger
                       placement="bottom"
-                      overlay={<Tooltip id="tooltip-bottom">Tooltip on bottom</Tooltip>}>
+                      menu={<Tooltip id="tooltip-bottom">Tooltip on bottom</Tooltip>}>
                       
                                             <button
                         type="button"
@@ -293,7 +293,7 @@ const Tooltips = () => {
                                         </OverlayTrigger>
                                         <OverlayTrigger
                       placement="left"
-                      overlay={<Tooltip id="tooltip-bottom">Tooltip on left</Tooltip>}>
+                      menu={<Tooltip id="tooltip-left">Tooltip on left</Tooltip>}>
                       
                                             <button
                         type="button"
@@ -317,7 +317,7 @@ const Tooltips = () => {
                                     <div className="popover-list">
                                         <OverlayTrigger
                       placement="top"
-                      overlay={<Tooltip id="tooltip-html">{tooltipContent}</Tooltip>}>
+                      menu={<Tooltip id="tooltip-html">{tooltipContent}</Tooltip>}>
                       
                                             <button
                         type="button"
@@ -329,7 +329,7 @@ const Tooltips = () => {
                                         <OverlayTrigger
                       trigger="click"
                       placement="bottom"
-                      overlay={tooltipContenthtml}>
+                      menu={<>{tooltipContenthtml}</>}>
                       
                                             <button
                         type="button"
@@ -359,7 +359,7 @@ const Tooltips = () => {
                     
                                   <OverlayTrigger
                       placement="top"
-                      overlay={tooltipContentDisable}>
+                      menu={<>{tooltipContentDisable}</>}>
                       
                                     <span className="d-inline-block" tabIndex={0}>
                                       <button className="btn btn-primary" type="button" disabled>
@@ -383,7 +383,7 @@ const Tooltips = () => {
                                         Hover on the link to view the{" "}
                                         <OverlayTrigger
                       placement="top"
-                      overlay={tooltipContentLink}>
+                      menu={<>{tooltipContentLink}</>}>
                       
                                            <Link
                         to="#"
@@ -406,8 +406,7 @@ const Tooltips = () => {
                                 <div className="card-body">
                                     <OverlayTrigger
                     placement="top"
-                    overlay={tooltipContentImg}>
-                    
+                    menu={<>{tooltipContentImg}</>}>
                                        <Link
                       to="#"
                       className="avatar avatar-md me-2 online avatar-rounded">
@@ -417,7 +416,7 @@ const Tooltips = () => {
                                     </OverlayTrigger>
                                     <OverlayTrigger
                     placement="top"
-                    overlay={tooltipContentImg2}>
+                    menu={<>{tooltipContentImg2}</>}>
                     
                                        <Link
                       to="#"
@@ -428,8 +427,9 @@ const Tooltips = () => {
                                     </OverlayTrigger>
                                     <OverlayTrigger
                     placement="top"
-                    overlay={tooltipContentImg3}>
-                    
+                    menu={<>{tooltipContentImg3}</>}>
+                    npm install react-custom-scrollbars-2
+
                                    <Link
                       to="#"
                       className="avatar avatar-xl me-2 offline avatar-rounded">

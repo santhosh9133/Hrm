@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  dataLayout: localStorage.getItem("dataLayout") || "default",
+  dataLayout: localStorage.getItem("dataLayout") || "horizontal",
   dataWidth: localStorage.getItem("dataWidth") || "fluid",
   dataCard: localStorage.getItem("dataCard") || "bordered",
   dataSidebar: localStorage.getItem("dataSidebar") || "light",
@@ -106,7 +106,7 @@ const themeSettingSlice = createSlice({
       document.body.setAttribute("class", action.payload);
     },
     resetAllMode: (state) => {
-      state.dataLayout = "default";
+      state.dataLayout = "horizontal";
       state.dataWidth = "fluid";
       state.dataCard = "bordered";
       state.dataSidebar = "light";

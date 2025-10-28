@@ -1,5 +1,5 @@
 export const base_path = "/";
-export const image_path = '/reactjs/template/';
+export const image_path = '/';
 
 // src/environment.jsx
 export const environment = {

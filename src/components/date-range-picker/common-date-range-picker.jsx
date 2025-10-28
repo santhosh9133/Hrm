@@ -70,7 +70,7 @@ const CommonDateRangePicker = () => {
 
   return (
     <div>
-      <Dropdown overlay={menu} trigger={['click']}>
+      <Dropdown menu={{items: menu}} trigger={['click']}>
         <Input
           readOnly
           value={displayValue}

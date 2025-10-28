@@ -23,21 +23,13 @@ import {
 "../../core/redux/themeSettingSlice";
 import { all_routes } from "../../routes/all_routes";
 
-
-
-
-
-
-
-
 const ThemeSettings = () => {
-  const buyNow = () => {
-    window.open(
-      "https://themeforest.net/item/dreamspos-pos-inventory-management-admin-dashboard-template/38834413?s_rank=13",
-      "_blank"
-    );
-  };
-
+  // const buyNow = () => {
+  //   window.open(
+  //     "https://themeforest.net/item/dreamspos-pos-inventory-management-admin-dashboard-template/38834413?s_rank=13",
+  //     "_blank"
+  //   );
+  // };
   const dispatch = useDispatch();
 
   // Redux state selectors

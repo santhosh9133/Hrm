@@ -734,7 +734,7 @@ const EditEmployee = () => {
           <p>
             Designed &amp; Developed by{" "}
             <Link to="#" className="text-primary">
-              Dreams
+              Richhmindx
             </Link>
           </p>
         </div>

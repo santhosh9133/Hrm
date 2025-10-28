@@ -5,6 +5,16 @@ export { default as facebookLogo } from "../../assets/img/icons/facebook-logo.sv
 export { default as googleLogo } from "../../assets/img/icons/google-logo.svg";
 export { default as appleLogo } from "../../assets/img/icons/apple-logo.svg";
 
+export { default as themeImage01 } from "../../assets/img/1.png";
+export { default as themeImage02 } from "../../assets/img/2.png";
+export { default as themeImage03 } from "../../assets/img/3.png";
+export { default as themeImage04 } from "../../assets/img/4.png";
+export { default as themeImage05 } from "../../assets/img/5.png";
+export { default as themeImage06 } from "../../assets/img/6.png";
+export { default as themeImage07 } from "../../assets/img/7.png";
+export { default as themeImage8 } from "../../assets/img/8.png";
+export { default as lexelpng } from "../../assets/img/lexel-png.png";
+
 export { default as socialFeed01 } from "../../assets/img/social/social-feed-01.jpg";
 export { default as socialFeed02 } from "../../assets/img/social/social-feed-02.jpg";
 

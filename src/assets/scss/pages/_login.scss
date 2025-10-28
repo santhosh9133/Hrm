@@ -11,25 +11,26 @@
     display: -ms-flexbox;
     display: flex;
     &.bg-img {
-        background-image: url(/reactjs/template/src/assets/img/authentication/login-img.jpg);
+        background-image: url(/src/assets/img/hrm-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: right;
         .login-content {
             background: rgba(255, 255, 255, 0.80);
             backdrop-filter: blur(17px);
         }
         &.register-wrap {
-            background-image: url(/reactjs/template/src/assets/img/authentication/register-img.jpg);
+            background-image: url(/src/assets/img/authentication/register-img.jpg);
         }
+            
         &.forgot-pass-wrap {
-            background-image: url(/reactjs/template/src/assets/img/authentication/forgot-password-img.jpg);
+            background-image: url(/src/assets/img/authentication/forgot-password-img.jpg);
         }
         &.reset-pass-wrap {
-            background-image: url(/reactjs/template/src/assets/img/authentication/reset-password-img.jpg);
+            background-image: url(/src/assets/img/authentication/reset-password-img.jpg);
         }
         &.email-veri-wrap {
-            background-image: url(/reactjs/template/src/assets/img/authentication/email-verification-img.jpg);
+            background-image: url(/src/assets/img/authentication/email-verification-img.jpg);
         }
         @include mixins.respond-below(custom991) {
            background-image: none;
@@ -608,4 +609,19 @@
     top: 160px;
     z-index: 0;
     bottom: 0;
+}
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px); /* roughly 0.5 cm */
+  }
+}
+
+.logo-float {
+  height: 80px;
+  width: 380px;
+  animation: floatUpDown 2s ease-in-out infinite;
 }

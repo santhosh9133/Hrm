@@ -37,7 +37,7 @@ const FeatureModule = () => {
     // Hide the loader after 2 seconds
     const timeoutId = setTimeout(() => {
       setShowLoader(false);
-    }, 2000);
+    }, 500);
 
     window.scrollTo(0, 0);
     return () => {

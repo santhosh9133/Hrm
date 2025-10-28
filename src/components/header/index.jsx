@@ -21,8 +21,9 @@ import {
   store_02,
   store_03,
   store_04,
-  usFlag } from
-"../../utils/imagepath";
+  usFlag
+} from
+  "../../utils/imagepath";
 const Header = () => {
   const route = all_routes;
   const [toggle, SetToggle] = useState(false);
@@ -30,13 +31,6 @@ const Header = () => {
   const [flagImage, _setFlagImage] = useState(usFlag);
   // const { t, i18n } = useTranslation();
   const changeLanguage = (_lng) => {
-
-
-
-
-
-
-
 
 
 
@@ -52,27 +46,27 @@ const Header = () => {
     //         ? 'assets/img/flags/es.png'
     //         : 'assets/img/flags/de.png'
     // );
-  };const isElementVisible = (element) => {return element.offsetWidth > 0 || element.offsetHeight > 0;};useEffect(() => {const handleMouseover = (e) => {
-        e.stopPropagation();
+  }; const isElementVisible = (element) => { return element.offsetWidth > 0 || element.offsetHeight > 0; }; useEffect(() => {
+    const handleMouseover = (e) => {
+      e.stopPropagation();
 
-        const body = document.body;
-        const toggleBtn =
+      const body = document.body;
+      const toggleBtn =
         document.getElementById("toggle_btn");
 
-        if (
+      if (
         body.classList.contains("mini-sidebar") &&
-        isElementVisible(toggleBtn))
-        {
-          e.preventDefault();
-        }
-      };
+        isElementVisible(toggleBtn)) {
+        e.preventDefault();
+      }
+    };
 
-      document.addEventListener("mouseover", handleMouseover);
+    document.addEventListener("mouseover", handleMouseover);
 
-      return () => {
-        document.removeEventListener("mouseover", handleMouseover);
-      };
-    }, []);
+    return () => {
+      document.removeEventListener("mouseover", handleMouseover);
+    };
+  }, []);
   useEffect(() => {
     const handleFullscreenChange = () => {
       setIsFullscreen(
@@ -124,8 +118,8 @@ const Header = () => {
   let pathname = location.pathname;
 
   const exclusionArray = [
-  "/reactjs/template/dream-pos/index-three",
-  "/reactjs/template/dream-pos/index-one"];
+    "/reactjs/template/dream-pos/index-three",
+    "/reactjs/template/dream-pos/index-one"];
 
   if (exclusionArray.indexOf(window.location.pathname) >= 0) {
     return "";
@@ -150,11 +144,10 @@ const Header = () => {
     const doc = document;
     elem = elem || document.documentElement;
     if (
-    !doc.fullscreenElement &&
-    !doc.mozFullScreenElement &&
-    !doc.webkitFullscreenElement &&
-    !doc.msFullscreenElement)
-    {
+      !doc.fullscreenElement &&
+      !doc.mozFullScreenElement &&
+      !doc.webkitFullscreenElement &&
+      !doc.msFullscreenElement) {
       if (elem.requestFullscreen) {
         elem.requestFullscreen();
       } else if (elem.msRequestFullscreen) {
@@ -207,29 +200,34 @@ const Header = () => {
              `}
             onMouseLeave={expandMenu}
             onMouseOver={expandMenuOpen}>
-            
+
             <Link to="/dashboard" className="logo logo-normal">
-              <img src={logoPng} alt="img" />
+              {/* <img src={logoPng} alt="img" /> */}
+              <span style={{ fontSize: "25px", fontFamily: "cursive", fontWeight: "bold", color: "#00B894" }} >Lexel</span>
+
             </Link>
             <Link to="/dashboard" className="logo logo-white">
-              <img src={logoWhitePng} alt="img" />
+              {/* <img src={logoWhitePng} alt="img" /> */}
+              <span style={{ fontSize: "25px", fontFamily: "cursive", fontWeight: "bold", color: "#00B894" }} >Lexel</span>
+
             </Link>
             <Link to="/dashboard" className="logo-small">
-              <img src={logoSmallPng} alt="img" />
+              {/* <img src={logoSmallPng} alt="img" /> */}
+              <span style={{ fontSize: "25px", fontFamily: "cursive", fontWeight: "bold", color: "#00B894" }} >Lexel</span>
             </Link>
             <Link
               id="toggle_btn"
               to="#"
               style={{
                 display:
-                pathname.includes("tasks") || pathname.includes("pos") ?
-                "none" :
-                pathname.includes("compose") ?
-                "none" :
-                ""
+                  pathname.includes("tasks") || pathname.includes("pos") ?
+                    "none" :
+                    pathname.includes("compose") ?
+                      "none" :
+                      ""
               }}
               onClick={handlesidebar}>
-              
+
               <i className="feather icon-chevrons-left feather-16" />
             </Link>
           </div>
@@ -239,7 +237,7 @@ const Header = () => {
             className="mobile_btn"
             to="#"
             onClick={sidebarOverlay}>
-            
+
             <span className="bar-icon">
               <span />
               <span />
@@ -260,7 +258,7 @@ const Header = () => {
                     id="dropdownMenuClickable"
                     data-bs-toggle="dropdown"
                     data-bs-auto-close="outside">
-                    
+
                     <input type="text" placeholder="Search" />
                     <div className="search-addon">
                       <span>
@@ -277,7 +275,7 @@ const Header = () => {
                   <div
                     className="dropdown-menu search-dropdown"
                     aria-labelledby="dropdownMenuClickable">
-                    
+
                     <div className="search-info">
                       <h6>
                         <span>
@@ -302,7 +300,7 @@ const Header = () => {
                         <span>
                           <i
                             className="feather-16 feather icon-help-circle" />
-                          
+
                         </span>
                         Help
                       </h6>
@@ -347,44 +345,44 @@ const Header = () => {
             {/* /Search */}
 
             {/* Select Store */}
-            <li className="nav-item dropdown has-arrow main-drop select-store-dropdown">
-              <Link
-                to="#"
-                className="dropdown-toggle nav-link select-store"
-                data-bs-toggle="dropdown">
-                
-                <span className="user-info">
-                  <span className="user-letter">
-                    <img
-                      src={store_01}
-                      alt="Store Logo"
-                      className="img-fluid" />
-                    
+              {/* <li className="nav-item dropdown has-arrow main-drop select-store-dropdown">
+                <Link
+                  to="#"
+                  className="dropdown-toggle nav-link select-store"
+                  data-bs-toggle="dropdown">
+
+                  <span className="user-info">
+                    <span className="user-letter">
+                      <img
+                        src={store_01}
+                        alt="Store Logo"
+                        className="img-fluid" />
+
+                    </span>
+                    <span className="user-detail">
+                      <span className="user-name">Freshmart</span>
+                    </span>
                   </span>
-                  <span className="user-detail">
-                    <span className="user-name">Freshmart</span>
-                  </span>
-                </span>
-              </Link>
-              <div className="dropdown-menu dropdown-menu-right">
-                <Link to="#" className="dropdown-item">
-                  <img src={store_01} alt="Store Logo" className="img-fluid" />
-                  Freshmart
                 </Link>
-                <Link to="#" className="dropdown-item">
-                  <img src={store_02} alt="Store Logo" className="img-fluid" />
-                  Grocery Apex
-                </Link>
-                <Link to="#" className="dropdown-item">
-                  <img src={store_03} alt="Store Logo" className="img-fluid" />
-                  Grocery Bevy
-                </Link>
-                <Link to="#" className="dropdown-item">
-                  <img src={store_04} alt="Store Logo" className="img-fluid" />
-                  Grocery Eden
-                </Link>
-              </div>
-            </li>
+                <div className="dropdown-menu dropdown-menu-right">
+                  <Link to="#" className="dropdown-item">
+                    <img src={store_01} alt="Store Logo" className="img-fluid" />
+                    Freshmart
+                  </Link>
+                  <Link to="#" className="dropdown-item">
+                    <img src={store_02} alt="Store Logo" className="img-fluid" />
+                    Grocery Apex
+                  </Link>
+                  <Link to="#" className="dropdown-item">
+                    <img src={store_03} alt="Store Logo" className="img-fluid" />
+                    Grocery Bevy
+                  </Link>
+                  <Link to="#" className="dropdown-item">
+                    <img src={store_04} alt="Store Logo" className="img-fluid" />
+                    Grocery Eden
+                  </Link>
+                </div>
+              </li> */}
             {/* /Select Store */}
 
             <li className="nav-item dropdown link-nav">
@@ -392,7 +390,7 @@ const Header = () => {
                 to="#"
                 className="btn btn-primary btn-md d-inline-flex align-items-center"
                 data-bs-toggle="dropdown">
-                
+
                 <i className="ti ti-circle-plus me-1" />
                 Add New
               </Link>
@@ -497,26 +495,25 @@ const Header = () => {
                 </div>
               </div>
             </li>
-            <li className="nav-item pos-nav">
+            {/* <li className="nav-item pos-nav">
               <Link
                 to={route.pos}
                 className="btn btn-dark btn-md d-inline-flex align-items-center">
-                
+
                 <i className="ti ti-device-laptop me-1" />
                 POS
               </Link>
-            </li>
+            </li> */}
 
             {/* Flag */}
-            <li className="nav-item dropdown has-arrow flag-nav nav-item-box">
+            {/* <li className="nav-item dropdown has-arrow flag-nav nav-item-box">
               <Link
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 to="#"
                 role="button">
-                
-                {/* <i data-feather="globe" /> */}
-                {/* <FeatherIcon icon="globe" /> */}
+                <i data-feather="globe" />
+                <FeatherIcon icon="globe" />
                 <img src={flagImage} alt="img" height={16} />
               </Link>
               <div className="dropdown-menu dropdown-menu-right">
@@ -524,20 +521,20 @@ const Header = () => {
                   to="#"
                   className="dropdown-item active"
                   onClick={() => changeLanguage("en")}>
-                  
+
                   <img src={englishFlag} alt="img" height={16} />
                   {"English"}
-                  {/* {t("English")} */}
+                  {t("English")}
                 </Link>
                 <Link
                   to="#"
                   className="dropdown-item"
                   onClick={() => changeLanguage("fr")}>
-                  
+
                   <img src={arabicFlag} alt="img" height={16} /> Arabic
                 </Link>
               </div>
-            </li>
+            </li> */}
             {/* /Flag */}
             <li className="nav-item nav-item-box">
               <Link
@@ -545,17 +542,17 @@ const Header = () => {
                 id="btnFullscreen"
                 onClick={() => toggleFullscreen()}
                 className={isFullscreen ? "Exit Fullscreen" : "Go Fullscreen"}>
-                
+
                 {/* <i data-feather="maximize" /> */}
                 <i className="ti ti-maximize"></i>
               </Link>
             </li>
             <li className="nav-item nav-item-box">
-              <Link to="/email">
-                {/* <i data-feather="mail" /> */}
+              {/* <Link to="/email">
+                <i data-feather="mail" />
                 <i className="ti ti-mail"></i>
                 <span className="badge rounded-pill">1</span>
-              </Link>
+              </Link> */}
             </li>
             {/* Notifications */}
             <li className="nav-item dropdown nav-item-box">
@@ -563,7 +560,7 @@ const Header = () => {
                 to="#"
                 className="dropdown-toggle nav-link"
                 data-bs-toggle="dropdown">
-                
+
                 {/* <i data-feather="bell" /> */}
                 <i className="ti ti-bell"></i>
                 {/* <span className="badge rounded-pill">2</span> */}
@@ -652,7 +649,7 @@ const Header = () => {
                   <Link
                     to={route.activities}
                     className="btn btn-primary btn-md w-100">
-                    
+
                     View all
                   </Link>
                 </div>
@@ -669,7 +666,7 @@ const Header = () => {
                 to="#"
                 className="nav-link userset"
                 data-bs-toggle="dropdown">
-                
+
                 <span className="user-info p-0">
                   <span className="user-letter">
                     <img src={avator1} alt="Img" className="img-fluid" />
@@ -714,7 +711,7 @@ const Header = () => {
               className="nav-link dropdown-toggle"
               data-bs-toggle="dropdown"
               aria-expanded="false">
-              
+
               <i className="fa fa-ellipsis-v" />
             </Link>
             <div className="dropdown-menu dropdown-menu-right">

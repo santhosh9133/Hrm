@@ -1698,7 +1698,7 @@ const SocialFeed = () => {
           <p>
             Designed &amp; Developed By{" "}
             <Link to="#" className="text-primary">
-              Dreams
+              Richhmindx
             </Link>
           </p>
         </div>
