@@ -5,6 +5,8 @@ export { default as facebookLogo } from "../../assets/img/icons/facebook-logo.sv
 export { default as googleLogo } from "../../assets/img/icons/google-logo.svg";
 export { default as appleLogo } from "../../assets/img/icons/apple-logo.svg";
 
+export { default as bgImg } from "../../assets/img/bgImg.jpg";
+
 export { default as themeImage01 } from "../../assets/img/1.png";
 export { default as themeImage02 } from "../../assets/img/2.png";
 export { default as themeImage03 } from "../../assets/img/3.png";

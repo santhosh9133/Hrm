@@ -12,301 +12,302 @@ export const SidebarData1 = [
     hasSubRoute: true,
     showSubRoute: true,
     subRoutes: [
-    {
-      tittle: "Admin Dashboard",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/index",
-      subRoutes: []
-    },
-    {
-      tittle: "Admin Dashboard 2",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/admin-dashboard",
-      subRoutes: []
-    },
-    {
-      tittle: "Sales Dashboard",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/sales-dashboard",
-      subRoutes: []
-    }]
-
+    // {
+    //   tittle: "Admin Dashboard",
+    //   hasSubRoute: false,
+    //   showSubRoute: false,
+    //   route: "/index",
+    //   subRoutes: []
+    // },
+    // {
+    //   tittle: "Admin Dashboard 2",
+    //   hasSubRoute: false,
+    //   showSubRoute: false,
+    //   route: "/admin-dashboard",
+    //   subRoutes: []
+    // },
+    // {
+    //   tittle: "Sales Dashboard",
+    //   hasSubRoute: false,
+    //   showSubRoute: false,
+    //   route: "/sales-dashboard",
+    //   subRoutes: []
+    // }
+  ]
   },
-  {
-    tittle: "Super Admin",
-    hasSubRoute: true,
-    showSubRoute: true,
-    subRoutes: [
-    {
-      tittle: "Dashboard",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/dashboard",
-      subRoutes: []
-    },
-    {
-      tittle: "Companies",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/companies",
-      subRoutes: []
-    },
-    {
-      tittle: "Subscriptions",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/subscription",
-      subRoutes: []
-    },
-    {
-      tittle: "Packages",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/packages",
-      subRoutes: []
-    },
-    {
-      tittle: "Domain",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/domain",
-      subRoutes: []
-    },
-    {
-      tittle: "Purchase Transaction",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/purchase-transaction",
-      subRoutes: []
-    }]
+  // {
+  //   tittle: "Super Admin",
+  //   hasSubRoute: true,
+  //   showSubRoute: true,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Dashboard",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/dashboard",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Companies",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/companies",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Subscriptions",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/subscription",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Packages",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/packages",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Domain",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/domain",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Purchase Transaction",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/purchase-transaction",
+  //     subRoutes: []
+  //   }]
 
-  },
-  {
-    tittle: "Application",
-    hasSubRoute: true,
-    showSubRoute: true,
-    base: "application",
-    subRoutes: [
-    {
-      tittle: "Chat",
-      route: "/chat",
-      hasSubRoute: false,
-      showSubRoute: false,
-      customSubmenuTwo: false
-    },
-    {
-      tittle: "Call",
-      hasSubRoute: true,
-      showSubRoute: true,
-      base: "application",
-      subRoutes: [
-      {
-        tittle: "Video Call",
-        route: "/video-call",
-        hasSubRoute: false,
-        showSubRoute: false,
-        subRoutes: []
-      },
-      {
-        tittle: "Audio Call",
-        route: "/audio-call",
-        hasSubRoute: false,
-        showSubRoute: false
-      },
-      {
-        tittle: "Call History",
-        route: "/call-history",
-        hasSubRoute: false,
-        showSubRoute: false
-      }]
+  // },
+  // {
+  //   tittle: "Application",
+  //   hasSubRoute: true,
+  //   showSubRoute: true,
+  //   base: "application",
+  //   subRoutes: [
+  //   {
+  //     tittle: "Chat",
+  //     route: "/chat",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     customSubmenuTwo: false
+  //   },
+  //   {
+  //     tittle: "Call",
+  //     hasSubRoute: true,
+  //     showSubRoute: true,
+  //     base: "application",
+  //     subRoutes: [
+  //     {
+  //       tittle: "Video Call",
+  //       route: "/video-call",
+  //       hasSubRoute: false,
+  //       showSubRoute: false,
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Audio Call",
+  //       route: "/audio-call",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Call History",
+  //       route: "/call-history",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     }]
 
-    },
-    {
-      tittle: "Calendar",
-      route: "/calendar",
-      hasSubRoute: false,
-      showSubRoute: false,
-      customSubmenuTwo: false
-    },
-    {
-      tittle: "Email",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/email",
-      customSubmenuTwo: false,
-      subRoutes: []
-    },
-    {
-      tittle: "To Do",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/todo",
-      customSubmenuTwo: false,
-      subRoutes: []
-    },
-    {
-      tittle: "Notes",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/notes",
-      customSubmenuTwo: false,
-      subRoutes: []
-    },
-    {
-      tittle: "File Manager",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/file-manager",
-      customSubmenuTwo: false,
-      subRoutes: []
-    },
-    {
-      tittle: "Projects",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/projects",
-      customSubmenuTwo: false,
-      subRoutes: []
-    },
-    {
-      tittle: "Ecommerce",
-      hasSubRoute: true,
-      showSubRoute: true,
-      subRoutes: [
-      {
-        tittle: "Products",
-        hasSubRoute: false,
-        showSubRoute: false,
-        route: "/products",
-        subRoutes: []
-      },
-      {
-        tittle: "Orders",
-        hasSubRoute: false,
-        showSubRoute: false,
-        route: "/orders",
-        subRoutes: []
-      },
-      {
-        tittle: "Customers",
-        hasSubRoute: false,
-        showSubRoute: false,
-        route: "/customers",
-        subRoutes: []
-      },
-      {
-        tittle: "Cart",
-        hasSubRoute: false,
-        showSubRoute: false,
-        route: "/cart",
-        subRoutes: []
-      },
-      {
-        tittle: "Checkout",
-        hasSubRoute: false,
-        showSubRoute: false,
-        route: "/checkout",
-        subRoutes: []
-      },
-      {
-        tittle: "Wishlist",
-        hasSubRoute: false,
-        showSubRoute: false,
-        route: "/wishlist",
-        subRoutes: []
-      },
-      {
-        tittle: "Reviews",
-        hasSubRoute: false,
-        showSubRoute: false,
-        route: "/reviews",
-        subRoutes: []
-      }]
+  //   },
+  //   {
+  //     tittle: "Calendar",
+  //     route: "/calendar",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     customSubmenuTwo: false
+  //   },
+  //   {
+  //     tittle: "Email",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/email",
+  //     customSubmenuTwo: false,
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "To Do",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/todo",
+  //     customSubmenuTwo: false,
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Notes",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/notes",
+  //     customSubmenuTwo: false,
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "File Manager",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/file-manager",
+  //     customSubmenuTwo: false,
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Projects",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/projects",
+  //     customSubmenuTwo: false,
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Ecommerce",
+  //     hasSubRoute: true,
+  //     showSubRoute: true,
+  //     subRoutes: [
+  //     {
+  //       tittle: "Products",
+  //       hasSubRoute: false,
+  //       showSubRoute: false,
+  //       route: "/products",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Orders",
+  //       hasSubRoute: false,
+  //       showSubRoute: false,
+  //       route: "/orders",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Customers",
+  //       hasSubRoute: false,
+  //       showSubRoute: false,
+  //       route: "/customers",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Cart",
+  //       hasSubRoute: false,
+  //       showSubRoute: false,
+  //       route: "/cart",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Checkout",
+  //       hasSubRoute: false,
+  //       showSubRoute: false,
+  //       route: "/checkout",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Wishlist",
+  //       hasSubRoute: false,
+  //       showSubRoute: false,
+  //       route: "/wishlist",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Reviews",
+  //       hasSubRoute: false,
+  //       showSubRoute: false,
+  //       route: "/reviews",
+  //       subRoutes: []
+  //     }]
 
-    },
-    {
-      tittle: "Social Feed",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/social-feed",
-      subRoutes: []
-    },
-    {
-      tittle: "Search List",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/search-list",
-      subRoutes: []
-    }]
+  //   },
+  //   {
+  //     tittle: "Social Feed",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/social-feed",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Search List",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/search-list",
+  //     subRoutes: []
+  //   }]
 
-  },
-  {
-    tittle: "Layouts",
-    hasSubRoute: true,
-    icon: "layout-sidebar-right-collapse",
-    showSubRoute: false,
-    subRoutes: [
-    {
-      tittle: "Horizontal",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/layout-horizontal",
-      subRoutes: []
-    },
-    {
-      tittle: "Detached",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/layout-detached",
-      subRoutes: []
-    },
-    {
-      tittle: "Modern",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/layout-modern",
-      subRoutes: []
-    },
-    {
-      tittle: "Two Column",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/layout-two-column",
-      subRoutes: []
-    },
-    {
-      tittle: "Hovered",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/layout-hovered",
-      subRoutes: []
-    },
-    {
-      tittle: "Boxed",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/layout-boxed",
-      subRoutes: []
-    },
-    {
-      tittle: "RTL",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/layout-rtl",
-      subRoutes: []
-    },
-    {
-      tittle: "Dark",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/layout-dark",
-      subRoutes: []
-    }]
+  // },
+  // {
+  //   tittle: "Layouts",
+  //   hasSubRoute: true,
+  //   icon: "layout-sidebar-right-collapse",
+  //   showSubRoute: false,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Horizontal",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/layout-horizontal",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Detached",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/layout-detached",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Modern",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/layout-modern",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Two Column",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/layout-two-column",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Hovered",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/layout-hovered",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Boxed",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/layout-boxed",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "RTL",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/layout-rtl",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Dark",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/layout-dark",
+  //     subRoutes: []
+  //   }]
 
-  }]
+  // }
+]
 
 },
 
@@ -2577,174 +2578,175 @@ export const SidebarData1 = [
   showSubRoute: false,
   activeRoute: "users",
   subRoutes: [
-  {
-    tittle: "Sales Report",
-    hasSubRoute: true,
-    showSubRoute: true,
-    subRoutes: [
-    {
-      tittle: "Sales Report",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/sales-report"
-    },
-    {
-      tittle: "Best Seller",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/best-seller"
-    }]
+  // {
+  //   tittle: "Sales Report",
+  //   hasSubRoute: true,
+  //   showSubRoute: true,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Sales Report",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/sales-report"
+  //   },
+  //   {
+  //     tittle: "Best Seller",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/best-seller"
+  //   }]
 
-  },
-  {
-    tittle: "Purchase Report",
-    hasSubRoute: false,
-    showSubRoute: false,
-    route: "/purchase-report",
-    subRoutes: []
-  },
-  {
-    tittle: "Inventory Report",
-    hasSubRoute: false,
-    showSubRoute: false,
-    route: "/inventory-report",
-    subRoutes: [
-    {
-      tittle: "Inventory Report",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/inventory-report",
-      subRoutes: []
-    },
-    {
-      tittle: "Stock History",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/stock-history",
-      subRoutes: []
-    },
-    {
-      tittle: "Sold Stock",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/sold-stock",
-      subRoutes: []
-    }]
+  // },
+  // {
+  //   tittle: "Purchase Report",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/purchase-report",
+  //   subRoutes: []
+  // },
+  // {
+  //   tittle: "Inventory Report",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/inventory-report",
+  //   subRoutes: [
+  //   {
+  //     tittle: "Inventory Report",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/inventory-report",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Stock History",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/stock-history",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Sold Stock",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/sold-stock",
+  //     subRoutes: []
+  //   }]
 
-  },
-  {
-    tittle: "Invoice Report",
-    hasSubRoute: false,
-    showSubRoute: false,
-    route: "/invoice-report",
-    subRoutes: []
-  },
-  {
-    tittle: "Supplier Report",
-    hasSubRoute: true,
-    showSubRoute: true,
-    subRoutes: [
-    {
-      tittle: "Supplier Report",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/supplier-report",
-      subRoutes: []
-    },
-    {
-      tittle: "Supplier Due Report",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/supplier-due-report",
-      subRoutes: []
-    }]
+  // },
+  // {
+  //   tittle: "Invoice Report",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/invoice-report",
+  //   subRoutes: []
+  // },
+  // {
+  //   tittle: "Supplier Report",
+  //   hasSubRoute: true,
+  //   showSubRoute: true,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Supplier Report",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/supplier-report",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Supplier Due Report",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/supplier-due-report",
+  //     subRoutes: []
+  //   }]
 
-  },
+  // },
 
-  {
-    tittle: "Customer Report",
-    hasSubRoute: false,
-    showSubRoute: false,
-    subRoutes: [
-    {
-      tittle: "Customer Report",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/customer-report",
-      subRoutes: []
-    },
-    {
-      tittle: "Customer Due Report",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/customer-due-report",
-      subRoutes: []
-    }]
+  // {
+  //   tittle: "Customer Report",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Customer Report",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/customer-report",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Customer Due Report",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/customer-due-report",
+  //     subRoutes: []
+  //   }]
 
-  },
-  {
-    tittle: "Product Report",
-    hasSubRoute: false,
-    showSubRoute: false,
-    subRoutes: [
-    {
-      tittle: "Product Report",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/product-report",
-      subRoutes: []
-    },
-    {
-      tittle: "Product Expiry Report",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/product-expiry-report",
-      subRoutes: []
-    },
-    {
-      tittle: "Product Quantity Alert",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/product-quantity-alert",
-      subRoutes: []
-    }]
+  // },
+  // {
+  //   tittle: "Product Report",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Product Report",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/product-report",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Product Expiry Report",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/product-expiry-report",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Product Quantity Alert",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/product-quantity-alert",
+  //     subRoutes: []
+  //   }]
 
-  },
-  {
-    tittle: "Expense Report",
-    hasSubRoute: false,
-    showSubRoute: false,
-    route: "/expense-report",
-    subRoutes: []
-  },
-  {
-    tittle: "Income Report",
-    hasSubRoute: false,
-    showSubRoute: false,
-    route: "/income-report",
-    subRoutes: []
-  },
-  {
-    tittle: "Tax Report",
-    hasSubRoute: false,
-    showSubRoute: false,
-    route: "/tax-report",
-    subRoutes: []
-  },
-  {
-    tittle: "Profit & Loss",
-    hasSubRoute: false,
-    showSubRoute: false,
-    route: "/profit-and-loss",
-    subRoutes: []
-  },
-  {
-    tittle: "Annual Report",
-    hasSubRoute: false,
-    showSubRoute: false,
-    route: "/annual-report",
-    subRoutes: []
-  }]
+  // },
+  // {
+  //   tittle: "Expense Report",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/expense-report",
+  //   subRoutes: []
+  // },
+  // {
+  //   tittle: "Income Report",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/income-report",
+  //   subRoutes: []
+  // },
+  // {
+  //   tittle: "Tax Report",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/tax-report",
+  //   subRoutes: []
+  // },
+  // {
+  //   tittle: "Profit & Loss",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/profit-and-loss",
+  //   subRoutes: []
+  // },
+  // {
+  //   tittle: "Annual Report",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/annual-report",
+  //   subRoutes: []
+  // }
+]
 
 },
 {

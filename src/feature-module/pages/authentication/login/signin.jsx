@@ -333,7 +333,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { all_routes } from "../../../../routes/all_routes";
-import { appleLogo, facebookLogo, googleLogo, logoWhitePng, themeImage01, themeImage02, themeImage03, themeImage04, themeImage05, themeImage06, themeImage07, themeImage8, lexelpng } from "../../../../utils/imagepath";
+import { appleLogo, facebookLogo, googleLogo, bgImg, themeImage01, themeImage02, themeImage03, themeImage04, themeImage05, themeImage06, themeImage07, themeImage8, lexelpng } from "../../../../utils/imagepath";
 import { environment } from "../../../../environment"; // import your env config
 
 const Signin = () => {
@@ -413,10 +413,10 @@ const Signin = () => {
           <div className="login-wrapper bg-img">
 
             {/* ✅ Rotating Image Circle */}
-            <div className="flex py-24 bg-gradient-to-br from-gray-50 to-gray-100" style={{ width: "70%" }}>
-              <div className="max-w-7xl mx-auto px-5 flex lg:flex-row items-center justify-between gap-12">
+            {/* <div className="flex py-24 bg-gradient-to-br from-gray-50 to-gray-100" > */}
+              {/* <div className="max-w-7xl mx-auto px-5 flex lg:flex-row items-center justify-between gap-12">
                 <div className="fixed flex-1 relative h-[500px] flex items-center justify-center lg:justify-end">
-                  {/* Center Logo */}
+                  Center Logo
                   <div className="w-25 h-25 rounded-full bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center shadow-2xl border-8 border-white relative z-10">
                     <img
                       src={lexelpng}
@@ -426,7 +426,7 @@ const Signin = () => {
 
                   </div>
 
-                  {/* Rotating Images */}
+                  Rotating Images
                   {services.map((service, idx) => {
                     const angleIncrement = (2 * Math.PI) / services.length;
                     const angle = idx * angleIncrement + rotation;
@@ -453,14 +453,22 @@ const Signin = () => {
                       >
                         <img src={service.image} alt={service.title} className="w-8 h-8 mb-1" />
                         <span className="text-xs font-semibold text-center px-1">
-                          {/* {service.title.split(" ")[0]} */}
+                          {service.title.split(" ")[0]}
                         </span>
                       </div>
                     );
                   })}
                 </div>
+              </div> */}
+              <div style={{ backgroundImage: `url(${bgImg})`,   backgroundSize: "cover", backgroundRepeat: "no-repeat",  backgroundPosition: "fixed", width: "68%", height: "100%",  }}>
+                {/* <img src={bgImg} alt="Logo" style={{
+                 
+                  
+                
+                 
+                }} /> */}
               </div>
-            </div>
+            {/* </div> */}
 
 
             {/* ✅ Service Cards (Left Side) */}
@@ -495,7 +503,7 @@ const Signin = () => {
 
 
             {/* ✅ Login Form Section */}
-            <div className="login-content authent-content" style={{ width: "30%" }}>
+            <div className="login-content authent-content" style={{ width: "32%" }}>
               <form onSubmit={handleLogin}>
                 <div className="login-userset">
                   <div className="login-logo logo-normal">
