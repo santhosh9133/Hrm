@@ -608,10 +608,10 @@ const SuperAdminDashboard = () => {
               alt="img"
               className="welcome-bg-01" />
             
-            <img
+            {/* <img
               src="src/assets/img/bg/welcome-bg-03.svg"
               alt="img"
-              className="welcome-bg-02" />
+              className="welcome-bg-02" /> */}
             
             <img
               src="src/assets/img/bg/welcome-bg-01.svg"

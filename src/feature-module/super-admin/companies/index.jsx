@@ -43,7 +43,7 @@ const Companies = () => {
     sorter: (a, b) => a.Email.length - b.Email.length
   },
   {
-    title: "Account URL",
+    title: "Account URl",
     dataIndex: "AccountURL",
     sorter: (a, b) => a.AccountURL.length - b.AccountURL.length
   },

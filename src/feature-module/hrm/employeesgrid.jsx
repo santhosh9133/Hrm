@@ -46,9 +46,9 @@ const EmployeesGrid = () => {
                   </Link>
                 </div>
               </li>
-              <TooltipIcons />
+              {/* <TooltipIcons /> */}
               <RefreshIcon />
-              <CollapesIcon />
+              {/* <CollapesIcon /> */}
             </ul>
             <div className="page-btn">
               <Link to={all_routes.addemployee} className="btn btn-primary">

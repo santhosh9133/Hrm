@@ -4,7 +4,7 @@ export const companiesData = [
 {
   id: 1,
   image: "company-01.svg",
-  companyName: "BrightWave Innovations",
+  companyName: "BrightWave",
   email: "michael@example.com",
   accountUrl: "bwi.example.com",
   plan: "Advanced (Monthly)",

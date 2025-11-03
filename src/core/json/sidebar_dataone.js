@@ -1228,18 +1228,21 @@ export const SidebarData1 = [
 //   }]
 
 // },
+
+ // HRM MENU
+
 {
-  tittle: "Profile",
+  tittle: "HRM",
   hasSubRoute: true,
   icon: "user-circle",
   showSubRoute: false,
   subRoutes: [
-  {
-    tittle: "Profile",
-    route: "/profile",
-    hasSubRoute: false,
-    showSubRoute: false
-  },
+  // {
+  //   tittle: "Profile",
+  //   route: "/profile",
+  //   hasSubRoute: false,
+  //   showSubRoute: false
+  // },
   // {
   //   tittle: "Authentication",
   //   hasSubRoute: true,
@@ -1672,6 +1675,901 @@ export const SidebarData1 = [
   }]
 
 },
+
+ // CRM MENU
+
+ {
+  tittle: "CRM",
+  hasSubRoute: true,
+  icon: "user-circle",
+  showSubRoute: false,
+  subRoutes: [
+  // {
+  //   tittle: "Profile",
+  //   route: "/profile",
+  //   hasSubRoute: false,
+  //   showSubRoute: false
+  // },
+  // {
+  //   tittle: "Authentication",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   //   route: routes.purchaseReport,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Login",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/signin",
+  //     subRoutes: [
+  //     {
+  //       tittle: "Cover",
+  //       route: "/signin",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Illustration",
+  //       route: "/signin-2",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Basic",
+  //       route: "/signin-3",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     }]
+
+  //   },
+  //   {
+  //     tittle: "Register",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/register",
+  //     subRoutes: [
+  //     {
+  //       tittle: "Cover",
+  //       route: "/signin",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Illustration",
+  //       route: "/signin-2",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Basic",
+  //       route: "/signin-3",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     }]
+
+  //   },
+  //   {
+  //     tittle: "Forgot Password",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/forgot-password",
+  //     subRoutes: [
+  //     {
+  //       tittle: "Cover",
+  //       route: "/forgot-password",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Illustration",
+  //       route: "/signin-2",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Basic",
+  //       route: "/signin-3",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     }]
+
+  //   },
+  //   {
+  //     tittle: "Reset Password",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/reset-password",
+  //     subRoutes: [
+  //     {
+  //       tittle: "Cover",
+  //       route: "/signin",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Illustration",
+  //       route: "/signin-2",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Basic",
+  //       route: "/signin-3",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     }]
+
+  //   },
+  //   {
+  //     tittle: "Email Verification",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/email-verification",
+  //     subRoutes: [
+  //     {
+  //       tittle: "Cover",
+  //       route: "/signin",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Illustration",
+  //       route: "/signin-2",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Basic",
+  //       route: "/signin-3",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     }]
+
+  //   },
+  //   {
+  //     tittle: "2 Step Verification",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/two-step-verification",
+  //     subRoutes: [
+  //     {
+  //       tittle: "Cover",
+  //       route: "/signin",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Illustration",
+  //       route: "/signin-2",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Basic",
+  //       route: "/signin-3",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     }]
+
+  //   }]
+
+  // },
+  // {
+  //   tittle: "Error",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   //   route: routes.purchaseReport,
+  //   subRoutes: [
+  //   {
+  //     tittle: "404 Error",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/error-404",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "500 Error",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/error-500",
+  //     subRoutes: []
+  //   }]
+
+  // },
+  // {
+  //   tittle: "Blank page",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/blank-page",
+  //   subRoutes: []
+  // },
+  // {
+  //   tittle: "Pricing",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/pricing",
+  //   subRoutes: []
+  // },
+  // {
+  //   tittle: "Comming Soon",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/coming-soon",
+  //   subRoutes: []
+  // },
+  // {
+  //   tittle: "Under Maintenance",
+  //   hasSubRoute: false,
+  //   showSubRoute: false,
+  //   route: "/under-maintenance",
+  //   subRoutes: []
+  // },
+  // {
+  //   tittle: "Content",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   //   route: routes.purchaseReport,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Pages",
+  //     hasSubRoute: true,
+  //     showSubRoute: true,
+  //     // route:"/employees-grid",
+  //     subRoutes: [
+  //     {
+  //       tittle: "Pages",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       route: "/pages",
+  //       subRoutes: []
+  //     }]
+
+  //   },
+  //   {
+  //     tittle: "Blog",
+  //     hasSubRoute: true,
+  //     showSubRoute: true,
+  //     subRoutes: [
+  //     {
+  //       tittle: "All Blog",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       route: "/all-blog",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Blog Tags",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       route: "/blog-tag",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Categories",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       route: "/blog-categories",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Blog Comments",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       route: "/blog-comments",
+  //       subRoutes: []
+  //     }]
+
+  //   },
+  //   {
+  //     tittle: "Location",
+  //     hasSubRoute: true,
+  //     showSubRoute: true,
+  //     subRoutes: [
+  //     {
+  //       tittle: "Countries",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       route: "/countries",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "States",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       route: "/states",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Cities",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       route: "/cities",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Testimonials",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       route: "/testimonials",
+  //       subRoutes: []
+  //     }]
+
+  //   },
+  //   {
+  //     tittle: "FAQ",
+  //     hasSubRoute: false,
+  //     showSubRoute: false,
+  //     route: "/faq",
+  //     subRoutes: []
+  //   }]
+
+  // },
+
+  
+  // {
+  //   tittle: "Employees",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   //   route: routes.purchaseReport,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Employees",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/employees-grid",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Designations",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/designation",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Departments",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/department-grid",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Shifts",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/shift",
+  //     subRoutes: []
+  //   }]
+
+  // },
+  // {
+  //   tittle: "Attendance",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   //   route: routes.purchaseReport,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Employee Attendance",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/attendance-employee",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Admin Attendance",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/attendance-admin",
+  //     subRoutes: []
+  //   }]
+
+  // },
+  // {
+  //   tittle: "Leave & Holidays",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   //   route: routes.purchaseReport,
+  //   subRoutes: [
+  //   {
+  //     tittle: "Admin Leaves",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/leaves-admin",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Employee Leaves",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/leaves-employee",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Leave Types",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/leave-types",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Holidays",
+  //     hasSubRoute: true,
+  //     showSubRoute: false,
+  //     route: "/holidays",
+  //     subRoutes: []
+  //   },
+  //   {
+  //     tittle: "Payroll",
+  //     hasSubRoute: true,
+  //     showSubRoute: true,
+  //     route: "/employee-salary",
+  //     subRoutes: [
+  //     {
+  //       tittle: "Employee Salary",
+  //       hasSubRoute: false,
+  //       showSubRoute: false,
+  //       route: "/employee-salary",
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Payslip",
+  //       hasSubRoute: false,
+  //       showSubRoute: false,
+  //       route: "/payslip",
+  //       subRoutes: []
+  //     }]
+
+  //   }]
+
+  // }
+]
+
+},
+
+// {
+//   tittle: "Profile",
+//   hasSubRoute: true,
+//   icon: "user-circle",
+//   showSubRoute: false,
+//   subRoutes: [
+//   {
+//     tittle: "Profile",
+//     route: "/profile",
+//     hasSubRoute: false,
+//     showSubRoute: false
+//   },
+//   // {
+//   //   tittle: "Authentication",
+//   //   hasSubRoute: true,
+//   //   showSubRoute: false,
+//   //   //   route: routes.purchaseReport,
+//   //   subRoutes: [
+//   //   {
+//   //     tittle: "Login",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: false,
+//   //     route: "/signin",
+//   //     subRoutes: [
+//   //     {
+//   //       tittle: "Cover",
+//   //       route: "/signin",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Illustration",
+//   //       route: "/signin-2",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Basic",
+//   //       route: "/signin-3",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     }]
+
+//   //   },
+//   //   {
+//   //     tittle: "Register",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: false,
+//   //     route: "/register",
+//   //     subRoutes: [
+//   //     {
+//   //       tittle: "Cover",
+//   //       route: "/signin",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Illustration",
+//   //       route: "/signin-2",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Basic",
+//   //       route: "/signin-3",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     }]
+
+//   //   },
+//   //   {
+//   //     tittle: "Forgot Password",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: false,
+//   //     route: "/forgot-password",
+//   //     subRoutes: [
+//   //     {
+//   //       tittle: "Cover",
+//   //       route: "/forgot-password",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Illustration",
+//   //       route: "/signin-2",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Basic",
+//   //       route: "/signin-3",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     }]
+
+//   //   },
+//   //   {
+//   //     tittle: "Reset Password",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: false,
+//   //     route: "/reset-password",
+//   //     subRoutes: [
+//   //     {
+//   //       tittle: "Cover",
+//   //       route: "/signin",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Illustration",
+//   //       route: "/signin-2",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Basic",
+//   //       route: "/signin-3",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     }]
+
+//   //   },
+//   //   {
+//   //     tittle: "Email Verification",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: false,
+//   //     route: "/email-verification",
+//   //     subRoutes: [
+//   //     {
+//   //       tittle: "Cover",
+//   //       route: "/signin",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Illustration",
+//   //       route: "/signin-2",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Basic",
+//   //       route: "/signin-3",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     }]
+
+//   //   },
+//   //   {
+//   //     tittle: "2 Step Verification",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: false,
+//   //     route: "/two-step-verification",
+//   //     subRoutes: [
+//   //     {
+//   //       tittle: "Cover",
+//   //       route: "/signin",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Illustration",
+//   //       route: "/signin-2",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     },
+//   //     {
+//   //       tittle: "Basic",
+//   //       route: "/signin-3",
+//   //       hasSubRoute: false,
+//   //       showSubRoute: false
+//   //     }]
+
+//   //   }]
+
+//   // },
+//   // {
+//   //   tittle: "Error",
+//   //   hasSubRoute: true,
+//   //   showSubRoute: false,
+//   //   //   route: routes.purchaseReport,
+//   //   subRoutes: [
+//   //   {
+//   //     tittle: "404 Error",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: false,
+//   //     route: "/error-404",
+//   //     subRoutes: []
+//   //   },
+//   //   {
+//   //     tittle: "500 Error",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: false,
+//   //     route: "/error-500",
+//   //     subRoutes: []
+//   //   }]
+
+//   // },
+//   // {
+//   //   tittle: "Blank page",
+//   //   hasSubRoute: false,
+//   //   showSubRoute: false,
+//   //   route: "/blank-page",
+//   //   subRoutes: []
+//   // },
+//   // {
+//   //   tittle: "Pricing",
+//   //   hasSubRoute: false,
+//   //   showSubRoute: false,
+//   //   route: "/pricing",
+//   //   subRoutes: []
+//   // },
+//   // {
+//   //   tittle: "Comming Soon",
+//   //   hasSubRoute: false,
+//   //   showSubRoute: false,
+//   //   route: "/coming-soon",
+//   //   subRoutes: []
+//   // },
+//   // {
+//   //   tittle: "Under Maintenance",
+//   //   hasSubRoute: false,
+//   //   showSubRoute: false,
+//   //   route: "/under-maintenance",
+//   //   subRoutes: []
+//   // },
+//   // {
+//   //   tittle: "Content",
+//   //   hasSubRoute: true,
+//   //   showSubRoute: false,
+//   //   //   route: routes.purchaseReport,
+//   //   subRoutes: [
+//   //   {
+//   //     tittle: "Pages",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: true,
+//   //     // route:"/employees-grid",
+//   //     subRoutes: [
+//   //     {
+//   //       tittle: "Pages",
+//   //       hasSubRoute: true,
+//   //       showSubRoute: true,
+//   //       route: "/pages",
+//   //       subRoutes: []
+//   //     }]
+
+//   //   },
+//   //   {
+//   //     tittle: "Blog",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: true,
+//   //     subRoutes: [
+//   //     {
+//   //       tittle: "All Blog",
+//   //       hasSubRoute: true,
+//   //       showSubRoute: true,
+//   //       route: "/all-blog",
+//   //       subRoutes: []
+//   //     },
+//   //     {
+//   //       tittle: "Blog Tags",
+//   //       hasSubRoute: true,
+//   //       showSubRoute: true,
+//   //       route: "/blog-tag",
+//   //       subRoutes: []
+//   //     },
+//   //     {
+//   //       tittle: "Categories",
+//   //       hasSubRoute: true,
+//   //       showSubRoute: true,
+//   //       route: "/blog-categories",
+//   //       subRoutes: []
+//   //     },
+//   //     {
+//   //       tittle: "Blog Comments",
+//   //       hasSubRoute: true,
+//   //       showSubRoute: true,
+//   //       route: "/blog-comments",
+//   //       subRoutes: []
+//   //     }]
+
+//   //   },
+//   //   {
+//   //     tittle: "Location",
+//   //     hasSubRoute: true,
+//   //     showSubRoute: true,
+//   //     subRoutes: [
+//   //     {
+//   //       tittle: "Countries",
+//   //       hasSubRoute: true,
+//   //       showSubRoute: true,
+//   //       route: "/countries",
+//   //       subRoutes: []
+//   //     },
+//   //     {
+//   //       tittle: "States",
+//   //       hasSubRoute: true,
+//   //       showSubRoute: true,
+//   //       route: "/states",
+//   //       subRoutes: []
+//   //     },
+//   //     {
+//   //       tittle: "Cities",
+//   //       hasSubRoute: true,
+//   //       showSubRoute: true,
+//   //       route: "/cities",
+//   //       subRoutes: []
+//   //     },
+//   //     {
+//   //       tittle: "Testimonials",
+//   //       hasSubRoute: true,
+//   //       showSubRoute: true,
+//   //       route: "/testimonials",
+//   //       subRoutes: []
+//   //     }]
+
+//   //   },
+//   //   {
+//   //     tittle: "FAQ",
+//   //     hasSubRoute: false,
+//   //     showSubRoute: false,
+//   //     route: "/faq",
+//   //     subRoutes: []
+//   //   }]
+
+//   // },
+//   {
+//     tittle: "Employees",
+//     hasSubRoute: true,
+//     showSubRoute: false,
+//     //   route: routes.purchaseReport,
+//     subRoutes: [
+//     {
+//       tittle: "Employees",
+//       hasSubRoute: true,
+//       showSubRoute: false,
+//       route: "/employees-grid",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Designations",
+//       hasSubRoute: true,
+//       showSubRoute: false,
+//       route: "/designation",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Departments",
+//       hasSubRoute: true,
+//       showSubRoute: false,
+//       route: "/department-grid",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Shifts",
+//       hasSubRoute: true,
+//       showSubRoute: false,
+//       route: "/shift",
+//       subRoutes: []
+//     }]
+
+//   },
+//   {
+//     tittle: "Attendance",
+//     hasSubRoute: true,
+//     showSubRoute: false,
+//     //   route: routes.purchaseReport,
+//     subRoutes: [
+//     {
+//       tittle: "Employee Attendance",
+//       hasSubRoute: true,
+//       showSubRoute: false,
+//       route: "/attendance-employee",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Admin Attendance",
+//       hasSubRoute: true,
+//       showSubRoute: false,
+//       route: "/attendance-admin",
+//       subRoutes: []
+//     }]
+
+//   },
+//   {
+//     tittle: "Leave & Holidays",
+//     hasSubRoute: true,
+//     showSubRoute: false,
+//     //   route: routes.purchaseReport,
+//     subRoutes: [
+//     {
+//       tittle: "Admin Leaves",
+//       hasSubRoute: true,
+//       showSubRoute: false,
+//       route: "/leaves-admin",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Employee Leaves",
+//       hasSubRoute: true,
+//       showSubRoute: false,
+//       route: "/leaves-employee",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Leave Types",
+//       hasSubRoute: true,
+//       showSubRoute: false,
+//       route: "/leave-types",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Holidays",
+//       hasSubRoute: true,
+//       showSubRoute: false,
+//       route: "/holidays",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Payroll",
+//       hasSubRoute: true,
+//       showSubRoute: true,
+//       route: "/employee-salary",
+//       subRoutes: [
+//       {
+//         tittle: "Employee Salary",
+//         hasSubRoute: false,
+//         showSubRoute: false,
+//         route: "/employee-salary",
+//         subRoutes: []
+//       },
+//       {
+//         tittle: "Payslip",
+//         hasSubRoute: false,
+//         showSubRoute: false,
+//         route: "/payslip",
+//         subRoutes: []
+//       }]
+
+//     }]
+
+//   }]
+
+// },
 {
   tittle: "Reports",
   hasSubRoute: true,

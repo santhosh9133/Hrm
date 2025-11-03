@@ -241,6 +241,7 @@ export const all_routes = {
   wishlist: "/wishlist",
   reviews: "/reviews",
   superadmindashboard: "/dashboard",
+  
   companies: "/companies",
   subscription: "/subscription",
   packagelist: "/packages",
