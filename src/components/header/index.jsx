@@ -661,11 +661,11 @@ const Header = () => {
               </div>
             </li>
             {/* /Notifications */}
-            <li className="nav-item nav-item-box">
+            {/* <li className="nav-item nav-item-box">
               <Link to="/general-settings">
                 <i className="feather icon-settings"></i>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item dropdown has-arrow main-drop profile-nav">
               <Link
                 to="#"
