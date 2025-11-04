@@ -201,17 +201,17 @@ const Header = () => {
             onMouseLeave={expandMenu}
             onMouseOver={expandMenuOpen}>
 
-            <Link to="/dashboard" className="logo logo-normal">
+            <Link to="/index" className="logo logo-normal">
               {/* <img src={logoPng} alt="img" /> */}
               <span style={{ fontSize: "25px", fontFamily: "cursive", fontWeight: "bold", color: "#00B894" }} >Lexel</span>
 
             </Link>
-            <Link to="/dashboard" className="logo logo-white">
+            <Link to="/index" className="logo logo-white">
               {/* <img src={logoWhitePng} alt="img" /> */}
               <span style={{ fontSize: "25px", fontFamily: "cursive", fontWeight: "bold", color: "#00B894" }} >Lexel</span>
 
             </Link>
-            <Link to="/dashboard" className="logo-small">
+            <Link to="/index" className="logo-small">
               {/* <img src={logoSmallPng} alt="img" /> */}
               <span style={{ fontSize: "25px", fontFamily: "cursive", fontWeight: "bold", color: "#00B894" }} >Lexel</span>
             </Link>
@@ -345,7 +345,7 @@ const Header = () => {
             {/* /Search */}
 
             {/* Select Store */}
-              {/* <li className="nav-item dropdown has-arrow main-drop select-store-dropdown">
+            {/* <li className="nav-item dropdown has-arrow main-drop select-store-dropdown">
                 <Link
                   to="#"
                   className="dropdown-toggle nav-link select-store"
@@ -385,7 +385,9 @@ const Header = () => {
               </li> */}
             {/* /Select Store */}
 
-            <li className="nav-item dropdown link-nav">
+
+            {/* Add NEW */}
+            {/* <li className="nav-item dropdown link-nav">
               <Link
                 to="#"
                 className="btn btn-primary btn-md d-inline-flex align-items-center"
@@ -494,7 +496,10 @@ const Header = () => {
                   </div>
                 </div>
               </div>
-            </li>
+            </li> */}
+
+
+
             {/* <li className="nav-item pos-nav">
               <Link
                 to={route.pos}
@@ -679,7 +684,36 @@ const Header = () => {
                     <img src={avator1} alt="Img" />
                   </span>
                   <div>
-                    <h6 className="fw-medium">John Smilga</h6>
+                    <h6 className="fw-medium">lexel</h6>
+                    <p>Admin</p>
+                  </div>
+                </div>
+                <Link className="dropdown-item" to="#">
+                  <i className="ti ti-user-circle me-2" />
+                  MyProfile
+                </Link>
+                <Link className="dropdown-item" to="#">
+                  <i className="ti ti-file-text me-2" />
+                  Reports
+                </Link>
+                <Link className="dropdown-item" to="#">
+                  <i className="ti ti-settings-2 me-2" />
+                  Settings
+                </Link>
+                <hr className="my-2" />
+                <Link className="dropdown-item logout pb-0" to={route.signin}>
+                  <i className="ti ti-logout me-2" />
+                  Logout
+                </Link>
+              </div>
+
+              {/* <div className="dropdown-menu menu-drop-user">
+                <div className="profileset d-flex align-items-center">
+                  <span className="user-img me-2">
+                    <img src={avator1} alt="Img" />
+                  </span>
+                  <div>
+                    <h6 className="fw-medium">lexel</h6>
                     <p>Admin</p>
                   </div>
                 </div>
@@ -700,7 +734,8 @@ const Header = () => {
                   <i className="ti ti-logout me-2" />
                   Logout
                 </Link>
-              </div>
+              </div> */}
+
             </li>
           </ul>
           {/* /Header Menu */}

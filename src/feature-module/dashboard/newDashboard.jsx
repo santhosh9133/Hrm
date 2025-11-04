@@ -480,8 +480,8 @@ const NewDashboard = () => {
           <div className="mb-3">
             <h1 className="mb-1">Welcome, Admin</h1>
             <p className="fw-medium">
-              You have <span className="text-primary fw-bold">200+</span>{" "}
-              Orders, Today
+              You have <span className="text-primary fw-bold">50+</span>{" "}
+              Companies, Today
             </p>
           </div>
           <div className="input-icon-start position-relative mb-3">
@@ -491,7 +491,7 @@ const NewDashboard = () => {
            <CommonDateRangePicker />
           </div>
         </div>
-        <div className="alert bg-orange-transparent alert-dismissible fade show mb-4">
+        {/* <div className="alert bg-orange-transparent alert-dismissible fade show mb-4">
           <div>
             <span>
               {" "}
@@ -520,8 +520,8 @@ const NewDashboard = () => {
             
             <i className="ti ti-x" />
           </button>
-        </div>
-        <div className="row">
+        </div> */}
+        {/* <div className="row">
           <div className="col-xl-3 col-sm-6 col-12 d-flex">
             <div className="card bg-primary sale-widget flex-fill">
               <div className="card-body d-flex align-items-center">
@@ -598,10 +598,10 @@ const NewDashboard = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="row">
           {/* Profit */}
-          <div className="col-xl-3 col-sm-6 col-12 d-flex">
+          {/* <div className="col-xl-3 col-sm-6 col-12 d-flex">
             <div className="card revenue-widget flex-fill">
               <div className="card-body">
                 <div className="d-flex align-items-center justify-content-between mb-3 pb-3 border-bottom">
@@ -627,10 +627,10 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Profit */}
           {/* Invoice */}
-          <div className="col-xl-3 col-sm-6 col-12 d-flex">
+          {/* <div className="col-xl-3 col-sm-6 col-12 d-flex">
             <div className="card revenue-widget flex-fill">
               <div className="card-body">
                 <div className="d-flex align-items-center justify-content-between mb-3 pb-3 border-bottom">
@@ -656,10 +656,10 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Invoice */}
           {/* Expenses */}
-          <div className="col-xl-3 col-sm-6 col-12 d-flex">
+          {/* <div className="col-xl-3 col-sm-6 col-12 d-flex">
             <div className="card revenue-widget flex-fill">
               <div className="card-body">
                 <div className="d-flex align-items-center justify-content-between mb-3 pb-3 border-bottom">
@@ -685,10 +685,10 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Expenses */}
           {/* Returns */}
-          <div className="col-xl-3 col-sm-6 col-12 d-flex">
+          {/* <div className="col-xl-3 col-sm-6 col-12 d-flex">
             <div className="card revenue-widget flex-fill">
               <div className="card-body">
                 <div className="d-flex align-items-center justify-content-between mb-3 pb-3 border-bottom">
@@ -714,13 +714,13 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Returns */}
         </div>
         <div className="row">
           <>
             {/* Sales & Purchase */}
-            <div className="col-xxl-8 col-xl-7 col-sm-12 col-12 d-flex">
+            {/* <div className="col-xxl-8 col-xl-7 col-sm-12 col-12 d-flex">
               <div className="card flex-fill">
                 <div className="card-header d-flex justify-content-between align-items-center">
                   <div className="d-inline-flex align-items-center">
@@ -779,7 +779,7 @@ const NewDashboard = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* /Sales & Purchase */}
           </>
 
@@ -801,8 +801,8 @@ const NewDashboard = () => {
                       <div className="mb-3 text-info fs-24">
                         <i className="ti ti-user-check" />
                       </div>
-                      <p className="mb-1">Suppliers</p>
-                      <h5>6987</h5>
+                      <p className="mb-1">Companies</p>
+                      <h5>69</h5>
                     </div>
                   </div>
                   <div className="col-md-4">
@@ -810,11 +810,11 @@ const NewDashboard = () => {
                       <div className="mb-3 text-orange fs-24">
                         <i className="ti ti-users" />
                       </div>
-                      <p className="mb-1">Customer</p>
+                      <p className="mb-1">Users</p>
                       <h5>4896</h5>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  {/* <div className="col-md-4">
                     <div className="info-item border bg-light p-3 text-center">
                       <div className="mb-3 text-teal fs-24">
                         <i className="ti ti-shopping-cart" />
@@ -822,7 +822,7 @@ const NewDashboard = () => {
                       <p className="mb-1">Orders</p>
                       <h5>487</h5>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="card-footer pb-sm-0">
@@ -899,7 +899,7 @@ const NewDashboard = () => {
         </div>
         <div className="row">
           {/* Top Selling Products */}
-          <div className="col-xxl-4 col-md-6 d-flex">
+          {/* <div className="col-xxl-4 col-md-6 d-flex">
             <div className="card flex-fill">
               <div className="card-header d-flex justify-content-between align-items-center flex-wrap gap-3">
                 <div className="d-inline-flex align-items-center">
@@ -1040,10 +1040,10 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Top Selling Products */}
           {/* Low Stock Products */}
-          <div className="col-xxl-4 col-md-6 d-flex">
+          {/* <div className="col-xxl-4 col-md-6 d-flex">
             <div className="card flex-fill">
               <div className="card-header d-flex justify-content-between align-items-center flex-wrap gap-3">
                 <div className="d-inline-flex align-items-center">
@@ -1147,10 +1147,10 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Low Stock Products */}
           {/* Recent Sales */}
-          <div className="col-xxl-4 col-md-12 d-flex">
+          {/* <div className="col-xxl-4 col-md-12 d-flex">
             <div className="card flex-fill">
               <div className="card-header d-flex justify-content-between align-items-center flex-wrap gap-3">
                 <div className="d-inline-flex align-items-center">
@@ -1306,12 +1306,12 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Recent Sales */}
         </div>
         <div className="row">
           {/* Sales Statics */}
-          <div className="col-xl-6 col-sm-12 col-12 d-flex">
+          {/* <div className="col-xl-6 col-sm-12 col-12 d-flex">
             <div className="card flex-fill">
               <div className="card-header d-flex justify-content-between align-items-center">
                 <div className="d-inline-flex align-items-center">
@@ -1382,10 +1382,10 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Sales Statics */}
           {/* Recent Transactions */}
-          <div className="col-xl-6 col-sm-12 col-12 d-flex">
+          {/* <div className="col-xl-6 col-sm-12 col-12 d-flex">
             <div className="card flex-fill">
               <div className="card-header d-flex align-items-center justify-content-between flex-wrap gap-3">
                 <div className="d-inline-flex align-items-center">
@@ -2163,12 +2163,12 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Recent Transactions */}
         </div>
         <div className="row">
           {/* Top Customers */}
-          <div className="col-xxl-4 col-md-6 d-flex">
+          {/* <div className="col-xxl-4 col-md-6 d-flex">
             <div className="card flex-fill">
               <div className="card-header d-flex justify-content-between align-items-center flex-wrap gap-3">
                 <div className="d-inline-flex align-items-center">
@@ -2297,10 +2297,10 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Top Customers */}
           {/* Top Categories */}
-          <div className="col-xxl-4 col-md-6 d-flex">
+          {/* <div className="col-xxl-4 col-md-6 d-flex">
             <div className="card flex-fill">
               <div className="card-header d-flex justify-content-between align-items-center flex-wrap gap-3">
                 <div className="d-inline-flex align-items-center">
@@ -2400,10 +2400,10 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Top Categories */}
           {/* Order Statistics */}
-          <div className="col-xxl-4 col-md-12 d-flex">
+          {/* <div className="col-xxl-4 col-md-12 d-flex">
             <div className="card flex-fill">
               <div className="card-header d-flex justify-content-between align-items-center flex-wrap gap-3">
                 <div className="d-inline-flex align-items-center">
@@ -2452,7 +2452,7 @@ const NewDashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* /Order Statistics */}
         </div>
       </div>
