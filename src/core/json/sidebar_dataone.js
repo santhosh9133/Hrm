@@ -1599,21 +1599,21 @@ export const SidebarData1 = [
     hasSubRoute: true,
     showSubRoute: false,
     //   route: routes.purchaseReport,
-    subRoutes: [
-    {
-      tittle: "Employee Attendance",
-      hasSubRoute: true,
-      showSubRoute: false,
-      route: "/attendance-employee",
-      subRoutes: []
-    },
-    {
-      tittle: "Admin Attendance",
-      hasSubRoute: true,
-      showSubRoute: false,
-      route: "/attendance-admin",
-      subRoutes: []
-    }]
+    // subRoutes: [
+    // {
+    //   tittle: "Employee Attendance",
+    //   hasSubRoute: true,
+    //   showSubRoute: false,
+    //   route: "/attendance-employee",
+    //   subRoutes: []
+    // },
+    // {
+    //   tittle: "Admin Attendance",
+    //   hasSubRoute: true,
+    //   showSubRoute: false,
+    //   route: "/attendance-admin",
+    //   subRoutes: []
+    // }]
 
   },
   {
@@ -1621,57 +1621,57 @@ export const SidebarData1 = [
     hasSubRoute: true,
     showSubRoute: false,
     //   route: routes.purchaseReport,
-    subRoutes: [
-    {
-      tittle: "Admin Leaves",
-      hasSubRoute: true,
-      showSubRoute: false,
-      route: "/leaves-admin",
-      subRoutes: []
-    },
-    {
-      tittle: "Employee Leaves",
-      hasSubRoute: true,
-      showSubRoute: false,
-      route: "/leaves-employee",
-      subRoutes: []
-    },
-    {
-      tittle: "Leave Types",
-      hasSubRoute: true,
-      showSubRoute: false,
-      route: "/leave-types",
-      subRoutes: []
-    },
-    {
-      tittle: "Holidays",
-      hasSubRoute: true,
-      showSubRoute: false,
-      route: "/holidays",
-      subRoutes: []
-    },
-    {
-      tittle: "Payroll",
-      hasSubRoute: true,
-      showSubRoute: true,
-      route: "/employee-salary",
-      subRoutes: [
-      {
-        tittle: "Employee Salary",
-        hasSubRoute: false,
-        showSubRoute: false,
-        route: "/employee-salary",
-        subRoutes: []
-      },
-      {
-        tittle: "Payslip",
-        hasSubRoute: false,
-        showSubRoute: false,
-        route: "/payslip",
-        subRoutes: []
-      }]
+    // subRoutes: [
+    // {
+    //   tittle: "Admin Leaves",
+    //   hasSubRoute: true,
+    //   showSubRoute: false,
+    //   route: "/leaves-admin",
+    //   subRoutes: []
+    // },
+    // {
+    //   tittle: "Employee Leaves",
+    //   hasSubRoute: true,
+    //   showSubRoute: false,
+    //   route: "/leaves-employee",
+    //   subRoutes: []
+    // },
+    // {
+    //   tittle: "Leave Types",
+    //   hasSubRoute: true,
+    //   showSubRoute: false,
+    //   route: "/leave-types",
+    //   subRoutes: []
+    // },
+    // {
+    //   tittle: "Holidays",
+    //   hasSubRoute: true,
+    //   showSubRoute: false,
+    //   route: "/holidays",
+    //   subRoutes: []
+    // },
+    // {
+    //   tittle: "Payroll",
+    //   hasSubRoute: true,
+    //   showSubRoute: true,
+    //   route: "/employee-salary",
+    //   subRoutes: [
+    //   {
+    //     tittle: "Employee Salary",
+    //     hasSubRoute: false,
+    //     showSubRoute: false,
+    //     route: "/employee-salary",
+    //     subRoutes: []
+    //   },
+    //   {
+    //     tittle: "Payslip",
+    //     hasSubRoute: false,
+    //     showSubRoute: false,
+    //     route: "/payslip",
+    //     subRoutes: []
+    //   }]
 
-    }]
+    // }]
 
   }]
 
@@ -2761,246 +2761,246 @@ export const SidebarData1 = [
     hasSubRoute: true,
     showSubRoute: false,
     //   route: routes.users,
-    subRoutes: [
-    {
-      tittle: "Profile",
-      route: "/profile",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Security",
-      route: "/security-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Notifications",
-      route: "/notification",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Connected Apps",
-      route: "/connected-apps",
-      hasSubRoute: false,
-      showSubRoute: false
-    }]
+    // subRoutes: [
+    // {
+    //   tittle: "Profile",
+    //   route: "/profile",
+    //   hasSubRoute: false,
+    //   showSubRoute: false
+    // },
+    // {
+    //   tittle: "Security",
+    //   route: "/security-settings",
+    //   hasSubRoute: false,
+    //   showSubRoute: false
+    // },
+    // {
+    //   tittle: "Notifications",
+    //   route: "/notification",
+    //   hasSubRoute: false,
+    //   showSubRoute: false
+    // },
+    // {
+    //   tittle: "Connected Apps",
+    //   route: "/connected-apps",
+    //   hasSubRoute: false,
+    //   showSubRoute: false
+    // }]
 
   },
-  {
-    tittle: "Website Settings",
-    hasSubRoute: true,
-    showSubRoute: false,
-    subRoutes: [
-    {
-      tittle: "System Settings",
-      route: "/system-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Company Settings",
-      route: "/company-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Localization",
-      route: "/localization-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Prefixes",
-      route: "/prefixes",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Preference",
-      route: "/preference",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Appearance",
-      route: "/appearance",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Social Authentication",
-      route: "/social-authentication",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Language",
-      route: "/language-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    }]
+  // {
+  //   tittle: "Website Settings",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   subRoutes: [
+  //   {
+  //     tittle: "System Settings",
+  //     route: "/system-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Company Settings",
+  //     route: "/company-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Localization",
+  //     route: "/localization-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Prefixes",
+  //     route: "/prefixes",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Preference",
+  //     route: "/preference",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Appearance",
+  //     route: "/appearance",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Social Authentication",
+  //     route: "/social-authentication",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Language",
+  //     route: "/language-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   }]
 
-  },
+  // },
 
-  {
-    tittle: "App Settings",
-    hasSubRoute: true,
-    showSubRoute: false,
-    activeRoute: "users",
-    subRoutes: [
-    {
-      tittle: "Invoice",
-      hasSubRoute: true,
-      showSubRoute: true,
-      subRoutes: [
-      {
-        tittle: "Invoice Settings",
-        route: "/invoice-settings",
-        hasSubRoute: true,
-        showSubRoute: true,
-        subRoutes: []
-      },
-      {
-        tittle: "Invoice Template",
-        route: "/invoice-template",
-        hasSubRoute: true,
-        showSubRoute: true,
-        subRoutes: []
-      }]
+  // {
+  //   tittle: "App Settings",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   activeRoute: "users",
+  //   subRoutes: [
+  //   {
+  //     tittle: "Invoice",
+  //     hasSubRoute: true,
+  //     showSubRoute: true,
+  //     subRoutes: [
+  //     {
+  //       tittle: "Invoice Settings",
+  //       route: "/invoice-settings",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       subRoutes: []
+  //     },
+  //     {
+  //       tittle: "Invoice Template",
+  //       route: "/invoice-template",
+  //       hasSubRoute: true,
+  //       showSubRoute: true,
+  //       subRoutes: []
+  //     }]
 
-    },
-    {
-      tittle: "Printer",
-      route: "/printer-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "POS",
-      route: "/pos-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Custom Fields",
-      route: "/custom-fields",
-      hasSubRoute: false,
-      showSubRoute: false
-    }]
+  //   },
+  //   {
+  //     tittle: "Printer",
+  //     route: "/printer-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "POS",
+  //     route: "/pos-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Custom Fields",
+  //     route: "/custom-fields",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   }]
 
-  },
-  {
-    tittle: "System Settings",
-    hasSubRoute: true,
-    showSubRoute: false,
-    activeRoute: "users",
-    subRoutes: [
-    {
-      tittle: "Email",
-      hasSubRoute: true,
-      showSubRoute: true,
-      subRoutes: [
-      {
-        tittle: "Email Settings",
-        route: "/email-settings",
-        hasSubRoute: false,
-        showSubRoute: false
-      },
-      {
-        tittle: "Email Template",
-        route: "/email-templates",
-        hasSubRoute: false,
-        showSubRoute: false
-      }]
+  // },
+  // {
+  //   tittle: "System Settings",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   activeRoute: "users",
+  //   subRoutes: [
+  //   {
+  //     tittle: "Email",
+  //     hasSubRoute: true,
+  //     showSubRoute: true,
+  //     subRoutes: [
+  //     {
+  //       tittle: "Email Settings",
+  //       route: "/email-settings",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "Email Template",
+  //       route: "/email-templates",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     }]
 
-    },
-    {
-      tittle: "SMS",
-      hasSubRoute: true,
-      showSubRoute: true,
-      subRoutes: [
-      {
-        tittle: "SMS Settings",
-        route: "/sms-settings",
-        hasSubRoute: false,
-        showSubRoute: false
-      },
-      {
-        tittle: "SMS Template",
-        route: "/sms-template",
-        hasSubRoute: false,
-        showSubRoute: false
-      }]
+  //   },
+  //   {
+  //     tittle: "SMS",
+  //     hasSubRoute: true,
+  //     showSubRoute: true,
+  //     subRoutes: [
+  //     {
+  //       tittle: "SMS Settings",
+  //       route: "/sms-settings",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     },
+  //     {
+  //       tittle: "SMS Template",
+  //       route: "/sms-template",
+  //       hasSubRoute: false,
+  //       showSubRoute: false
+  //     }]
 
-    },
-    {
-      tittle: "OTP",
-      route: "/otp-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "GDPR Cookies",
-      route: "/gdpr-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    }]
+  //   },
+  //   {
+  //     tittle: "OTP",
+  //     route: "/otp-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "GDPR Cookies",
+  //     route: "/gdpr-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   }]
 
-  },
-  {
-    tittle: "Financial Settings",
-    hasSubRoute: true,
-    showSubRoute: false,
-    activeRoute: "users",
-    subRoutes: [
-    {
-      tittle: "Payment Gateway",
-      route: "/payment-gateway-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Bank Accounts",
-      route: "/bank-settings-grid",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Tax Rates",
-      route: "/tax-rates",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Currencies",
-      route: "/currency-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    }]
+  // },
+  // {
+  //   tittle: "Financial Settings",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   activeRoute: "users",
+  //   subRoutes: [
+  //   {
+  //     tittle: "Payment Gateway",
+  //     route: "/payment-gateway-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Bank Accounts",
+  //     route: "/bank-settings-grid",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Tax Rates",
+  //     route: "/tax-rates",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Currencies",
+  //     route: "/currency-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   }]
 
-  },
-  {
-    tittle: "Other Settings",
-    hasSubRoute: true,
-    showSubRoute: false,
-    activeRoute: "users",
-    subRoutes: [
-    {
-      tittle: "Storage",
-      route: "/storage-settings",
-      hasSubRoute: false,
-      showSubRoute: false
-    },
-    {
-      tittle: "Ban IP Address",
-      route: "/ban-ip-address",
-      hasSubRoute: false,
-      showSubRoute: false
-    }]
+  // },
+  // {
+  //   tittle: "Other Settings",
+  //   hasSubRoute: true,
+  //   showSubRoute: false,
+  //   activeRoute: "users",
+  //   subRoutes: [
+  //   {
+  //     tittle: "Storage",
+  //     route: "/storage-settings",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   },
+  //   {
+  //     tittle: "Ban IP Address",
+  //     route: "/ban-ip-address",
+  //     hasSubRoute: false,
+  //     showSubRoute: false
+  //   }]
 
-  },
+  // },
   {
     tittle: "Logout",
     hasSubRoute: false,
@@ -3009,97 +3009,99 @@ export const SidebarData1 = [
   }]
 
 },
-{
-  tittle: "More",
-  hasSubRoute: true,
-  icon: "circle-plus",
-  showSubRoute: false,
-  activeRoute: "More",
-  subRoutes: [
-  {
-    tittle: "People",
-    hasSubRoute: true,
-    showSubRoute: false,
-    //   route: routes.users,
-    subRoutes: [
-    {
-      tittle: "Customers",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/customers",
-      subRoutes: []
-    },
-    {
-      tittle: "Billers",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/billers",
-      subRoutes: []
-    },
-    {
-      tittle: "Suppliers",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/suppliers",
-      subRoutes: []
-    },
-    {
-      tittle: "Stores",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/store-list",
-      subRoutes: []
-    },
-    {
-      tittle: "Warehouses",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/warehouse",
-      subRoutes: []
-    }]
+// {
+//   tittle: "More",
+//   hasSubRoute: true,
+//   icon: "circle-plus",
+//   showSubRoute: false,
+//   activeRoute: "More",
+//   subRoutes: [
+//   {
+//     tittle: "People",
+//     hasSubRoute: true,
+//     showSubRoute: false,
+//     //   route: routes.users,
+//     subRoutes: [
+//     {
+//       tittle: "Customers",
+//       hasSubRoute: false,
+//       showSubRoute: false,
+//       route: "/customers",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Billers",
+//       hasSubRoute: false,
+//       showSubRoute: false,
+//       route: "/billers",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Suppliers",
+//       hasSubRoute: false,
+//       showSubRoute: false,
+//       route: "/suppliers",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Stores",
+//       hasSubRoute: false,
+//       showSubRoute: false,
+//       route: "/store-list",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Warehouses",
+//       hasSubRoute: false,
+//       showSubRoute: false,
+//       route: "/warehouse",
+//       subRoutes: []
+//     }]
 
-  },
-  {
-    tittle: "User Management",
-    hasSubRoute: true,
-    showSubRoute: false,
-    //   route: routes.users,
-    subRoutes: [
-    {
-      tittle: "Users",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/users",
-      subRoutes: []
-    },
-    {
-      tittle: "Roles & Permissions",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/roles-permissions",
-      subRoutes: []
-    },
-    {
-      tittle: "Delete Account Request",
-      hasSubRoute: false,
-      showSubRoute: false,
-      route: "/delete-account",
-      subRoutes: []
-    }]
+//   },
+//   {
+//     tittle: "User Management",
+//     hasSubRoute: true,
+//     showSubRoute: false,
+//     //   route: routes.users,
+//     subRoutes: [
+//     {
+//       tittle: "Users",
+//       hasSubRoute: false,
+//       showSubRoute: false,
+//       route: "/users",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Roles & Permissions",
+//       hasSubRoute: false,
+//       showSubRoute: false,
+//       route: "/roles-permissions",
+//       subRoutes: []
+//     },
+//     {
+//       tittle: "Delete Account Request",
+//       hasSubRoute: false,
+//       showSubRoute: false,
+//       route: "/delete-account",
+//       subRoutes: []
+//     }]
 
-  },
+//   },
 
-  {
-    tittle: "Documentation",
-    hasSubRoute: false,
-    showSubRoute: false,
-    activeRoute: "users"
-  },
-  {
-    tittle: "Changelog v2.0.7",
-    hasSubRoute: false,
-    showSubRoute: false,
-    activeRoute: "users"
-  }]
+//   {
+//     tittle: "Documentation",
+//     hasSubRoute: false,
+//     showSubRoute: false,
+//     activeRoute: "users"
+//   },
+//   {
+//     tittle: "Changelog v2.0.7",
+//     hasSubRoute: false,
+//     showSubRoute: false,
+//     activeRoute: "users"
+//   }]
 
-}];
+// }
+
+];
