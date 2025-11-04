@@ -358,7 +358,7 @@ const Signin = () => {
     setErrorMsg("");
 
     try {
-      const response = await fetch(`${environment.API_URL}/admin/login`, {
+      const response = await fetch(`${environment.API_URL}/users/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
